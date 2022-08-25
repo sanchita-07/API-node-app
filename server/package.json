@@ -1,0 +1,19 @@
+{
+  "name": "crud_app",
+  "version": "1.0.0",
+  "description": "CRUD App for posting blogs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Sanchita Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "nodemon": "^2.0.19"
+  }
+}
