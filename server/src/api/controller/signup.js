@@ -40,7 +40,7 @@ exports.login = (req,res) => {
     Userdb.findOne({email}, (err,user) =>{
         if(user){
             if(password === user.password) {
-                res.send({message: "Login Successful"}, user)
+                res.send({message: "Login Successful"})
             }
             else {
                 res.send({message: "Incorrect Password"})

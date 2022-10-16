@@ -5,6 +5,7 @@ const controlleruser = require('../controller/signup');
 
  route.post('/blogs', controllerblog.create);
  route.get('/blogs', controllerblog.read);
+ route.get('/blogs/:id', controllerblog.read);
  route.put('/blogs/:id', controllerblog.update);
  route.delete('/blogs/:id', controllerblog.delete);
 

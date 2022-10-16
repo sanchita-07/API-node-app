@@ -63,7 +63,7 @@ exports.read = (req,res) => {
     exports.delete = (req,res) => {
         const id = req.params.id;
     
-        db.findByIdAndDelete(id)
+        Blogdb.findByIdAndDelete(id)
         .then(data =>{
                 res.send({
                     message:"Blog was deleted successfully!"
