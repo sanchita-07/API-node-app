@@ -26,6 +26,4 @@ mongoose.connect(DB)
     console.log(`No connection!`);
     console.log(err.message);
   });
-
-
   
