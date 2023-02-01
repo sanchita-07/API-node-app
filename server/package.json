@@ -1,5 +1,5 @@
 {
-    "name": "crud_app",
+    "name": "api_node_app",
     "version": "1.0.0",
     "description": "CRUD App for posting blogs",
     "main": "src/index.js",
